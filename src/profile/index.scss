@@ -157,12 +157,10 @@ a.btn {
   color: #000;
   border-color: #25a78e;
 
-  &:hover:not(.disabled),
-  &:focus:not(.disabled),
-  &:active(.disabled) {
-    background-color: #25a78e;
-    color: #000;
-    border-color: #25a78e;
+  &:hover {
+    background-color: #1b5c4f!important;
+    border: 1px solid #1b5c4f!important;
+    color: #fff!important;
   }
 }
 
