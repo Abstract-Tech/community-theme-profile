@@ -28,9 +28,9 @@
     "extends @edx/browserslist-config"
   ],
   "dependencies": {
-    "@edx/brand": "npm:@edx/brand-openedx@1.2.0",
-    "@edx/frontend-component-footer": "12.3.0",
-    "@edx/frontend-component-header": "4.7.1",
+    "@edx/brand": "file:brand",
+    "@edx/frontend-component-footer": "file:footer",
+    "@edx/frontend-component-header": "file:header",
     "@edx/frontend-platform": "5.5.4",
     "@edx/paragon": "^20.44.0",
     "@fortawesome/fontawesome-svg-core": "1.2.36",

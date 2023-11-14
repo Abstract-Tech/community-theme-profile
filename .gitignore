@@ -17,3 +17,6 @@ temp/babel-plugin-react-intl
 /temp
 /.vscode
 /module.config.js
+footer/node_modules
+header/
+.cache
