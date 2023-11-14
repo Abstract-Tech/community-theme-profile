@@ -28,9 +28,9 @@
     "extends @edx/browserslist-config"
   ],
   "dependencies": {
-    "@edx/brand": "file:brand",
-    "@edx/frontend-component-footer": "file:footer",
-    "@edx/frontend-component-header": "file:header",
+    "@edx/brand": "git+https://git@github.com/abstract-tech/community-theme-brand.git#quince",
+    "@edx/frontend-component-footer": "git+https://git@github.com/abstract-tech/community-theme-footer.git#quince",
+    "@edx/frontend-component-header": "git+https://git@github.com/abstract-tech/community-theme-header.git#quince",
     "@edx/frontend-platform": "5.5.4",
     "@edx/paragon": "^20.44.0",
     "@fortawesome/fontawesome-svg-core": "1.2.36",
