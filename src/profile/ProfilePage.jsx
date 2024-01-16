@@ -7,6 +7,7 @@ import { ensureConfig, getConfig } from '@edx/frontend-platform';
 import { AppContext } from '@edx/frontend-platform/react';
 import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { Alert, Hyperlink } from '@edx/paragon';
+import { ReactComponent as Badge } from './assets/badge.svg';
 
 // Actions
 import {
@@ -283,6 +284,13 @@ class ProfilePage extends React.Component {
               formId="certificates"
               {...commonFormProps}
             />
+            <div style={{width:"100px"}}>
+            <Badge></Badge>
+            </div>
+            <p className="h5" >
+            Congratulation for earning badge for attending the OEB conference!
+            </p>
+
           </div>
         </div>
       </div>
